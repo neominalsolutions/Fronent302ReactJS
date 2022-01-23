@@ -10,6 +10,7 @@ import Test from './test'
 // import ile başka bir js dosyasına erişebilir.
 import reportWebVitals from './reportWebVitals';
 import Button from './Button';
+import Todo from './Todo';
 
 
 // sayfa ilk açıldığında uygulamayı app elementten çalıştırır.
@@ -20,7 +21,8 @@ ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* uygulama bu sefer App.js değilde Test.js ile çalışsın */}
-    <Test title={'Başlık'} body={'İçerik'} ></Test>
+    {/* <Test title={'Başlık'} body={'İçerik'} ></Test> */}
+    <Todo></Todo>
   </React.StrictMode>,
   document.getElementById('root')
 );
